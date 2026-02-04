@@ -1,5 +1,6 @@
 const button = document.getElementById("btn");
+const message = document.getElementById("message");
 
 button.addEventListener("click", () => {
-  alert("Bravo ! Le JavaScript fonctionne 😄");
+  message.textContent = "Bravo 🎉 Tu viens d'utiliser JavaScript !";
 });
