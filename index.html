@@ -11,28 +11,34 @@
   <header>
     <h1>Simple Website</h1>
     <nav>
-      <a href="#">Accueil</a>
-      <a href="#">À propos</a>
-      <a href="#">Contact</a>
+  <a href="#" id="link-home">Accueil</a>
+  <a href="#" id="link-about">À propos</a>
+  <a href="#" id="link-contact">Contact</a>
+
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Bienvenue</h2>
-      <p>Ce site a été créé pour apprendre HTML, CSS et JavaScript.</p>
-      <button id="btn">Clique ici</button>
-      <p id="message"></p>
-    </section>
+  <section id="home">
+    <h2>Bienvenue</h2>
+    <p>Ce site a été créé pour apprendre HTML, CSS et JavaScript.</p>
+    <button id="btn">Clique ici</button>
+    <p id="message"></p>
+  </section>
 
-    <section>
-      <h2>À propos</h2>
-      <p>
-        Ce projet est un petit site web réalisé pour comprendre
-        la structure d’un site et les bases du développement web.
-      </p>
-    </section>
-  </main>
+  <section id="about" style="display: none;">
+    <h2>À propos</h2>
+    <p>
+      Ce projet est un petit site web réalisé pour apprendre
+      le développement web.
+    </p>
+  </section>
+
+  <section id="contact" style="display: none;">
+    <h2>Contact</h2>
+    <p>Email : contact@exemple.com</p>
+  </section>
+</main>
 
   <footer>
     <p>© 2026 - Simple Website</p>
