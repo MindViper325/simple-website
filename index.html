@@ -11,32 +11,37 @@
   <header>
     <h1>Simple Website</h1>
     <nav>
-  <a href="#" id="link-home">Accueil</a>
+ <a href="#" id="link-home">Accueil</a>
   <a href="#" id="link-about">À propos</a>
-  <a href="#" id="link-contact">Contact</a>
+  <a href="#" id="link-games">Jeux</a>
 
     </nav>
+    <button id="theme-toggle">🌙</button>
   </header>
 
   <main>
-  <section id="home">
+  <section id="home" class="section active">
     <h2>Bienvenue</h2>
-    <p>Ce site a été créé pour apprendre HTML, CSS et JavaScript.</p>
+    <p>Bienvenue sur mon site de jeux 🎮</p>
     <button id="btn">Clique ici</button>
     <p id="message"></p>
   </section>
 
-  <section id="about" style="display: none;">
+  <section id="about" class="section">
     <h2>À propos</h2>
     <p>
-      Ce projet est un petit site web réalisé pour apprendre
-      le développement web.
+      Ce site a été créé pour apprendre le développement web
+      et proposer plusieurs mini-jeux.
     </p>
   </section>
 
-  <section id="contact" style="display: none;">
-    <h2>Contact</h2>
-    <p>Email : contact@exemple.com</p>
+  <section id="games" class="section">
+    <h2>Jeux</h2>
+    <div class="games-container">
+      <div class="game-card">🎯 Jeu 1<br><small>Bientôt</small></div>
+      <div class="game-card">🧠 Jeu 2<br><small>Bientôt</small></div>
+      <div class="game-card">🎲 Jeu 3<br><small>Bientôt</small></div>
+    </div>
   </section>
 </main>
 
